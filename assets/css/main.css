@@ -142,7 +142,7 @@
 	background-color: #1f2a44; 
 	color: #fff;
 	padding: 2rem 1rem;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
   }
   .about-section .photo {
