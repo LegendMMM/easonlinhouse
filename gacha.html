@@ -1,1 +1,46 @@
-<iframe src="https://easonlin-gaming.blogspot.com/" style="width: 100%; height: 800px; border: none;" scrolling="auto"></iframe>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>抽卡紀錄</title>
+  <!-- 第 7 行：引用全站共用 main.css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <!-- 第 12 ~ 16 行：頂部固定導覽列 (白色選單) -->
+  <header id="mainHeader">
+    <div class="hamburger" id="hamburgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <h3 class="site-title">My Website</h3>
+  </header>
+
+  <!-- 第 18 ~ 24 行：側邊選單 & 遮罩 (漢堡按鈕搭配) -->
+  <nav class="side-menu" id="sideMenu">
+    <h2>選單</h2>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="about.html">關於我</a></li>
+      <li><a href="gacha.html">抽卡紀錄</a></li>
+      <li><a href="works.html">作品</a></li>
+    </ul>
+  </nav>
+  <div class="overlay" id="overlay"></div>
+
+  <!-- 第 30 ~ 34 行：留出60px上邊距，避免導覽列擋住內容 -->
+  <section style="margin-top: 60px;">
+    <iframe
+      src="https://easonlin-gaming.blogspot.com/"
+      style="width: 100%; height: 800px; border: none;"
+      scrolling="auto">
+    </iframe>
+  </section>
+
+  <!-- 第 37 行：引用 main.js，以啟用漢堡選單與導覽列功能 -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
